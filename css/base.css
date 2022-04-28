@@ -1,0 +1,36 @@
+.clearfix::after {
+    content: "";
+    height: 0px;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}

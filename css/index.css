@@ -1,0 +1,369 @@
+html {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+.index-wrap {
+  height: 2000px;
+}
+
+.sn-nav-wrapper {
+  display: flex;
+  width: 15rem;
+  height: 3.6rem;
+  margin: 0 auto;
+}
+
+.sn-nav-wrapper .index-nav {
+  flex: 1;
+  background: url(../upload/nav4.jpg) no-repeat;
+}
+
+.sn-nav-wrapper .index-nav .nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13.64rem;
+  height: 1.76rem;
+  margin: 0 auto;
+}
+
+.sn-nav-wrapper .index-nav .nav-header .class {
+  width: 0.72rem;
+  height: 1.2rem;
+  background: url(../images/nav1.png) no-repeat;
+  background-size: 0.72rem 1.2rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-header .top-wrapper {
+  display: flex;
+  width: 11.4rem;
+  height: 1.76rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sn-nav-wrapper .index-nav .nav-header .top-wrapper .img {
+  width: 7.8rem;
+  height: 1.52rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-header .login {
+  width: 0.72rem;
+  height: 1.2rem;
+  background: url(../images/nav3.png) no-repeat;
+  background-size: 0.72rem 1.2rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-body {
+  width: 15rem;
+  height: 1.84rem;
+  padding: 0 0.48rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-body .nav-content {
+  position: relative;
+  width: 100%;
+  height: 1.76rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-body .nav-content .icon {
+  position: absolute;
+  top: 0.56rem;
+  left: 0.4rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  background: url(../upload/下载.png) no-repeat;
+  background-size: 0.72rem 0.72rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-body .nav-content form {
+  display: flex;
+  align-items: center;
+  height: 1.76rem;
+}
+
+.sn-nav-wrapper .index-nav .nav-body .nav-content form input {
+  width: 100%;
+  height: 1.28rem;
+  padding: 0.06rem 0.4rem 0px 1.3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.64rem;
+  font-size: 0.56rem;
+  color: #999;
+}
+
+.v7-banner {
+  position: relative;
+  width: 15rem;
+  height: 4.58rem;
+  background: url(../upload/banner3.jpg) no-repeat;
+  background-size: 15rem 4.58rem;
+}
+
+.v7-banner .swipe-wrapper {
+  width: 14.04rem;
+  height: 4.58rem;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+/* 轮播图模块 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-pagination {
+  bottom: 0px !important;
+}
+.swiper-pagination span {
+  background-color: #fff;
+  border:1px solid #000
+}
+.view {
+  display: flex;
+  height: 3.5625rem;
+}
+
+.view a {
+  flex: 1;
+}
+
+.enter-list {
+  width: 15rem;
+  height: 6.4rem;
+  background-color: #f4f4f4;
+}
+
+.enter-list .enter-wrapper {
+  width: 100%;
+  height: 6.04rem;
+}
+
+.enter-list .enter-wrapper ul li {
+  float: left;
+  width: 3rem;
+  height: 2.84rem;
+}
+
+.enter-list .enter-wrapper ul li a {
+  display: block;
+}
+
+.enter-list .enter-wrapper ul li a .enter-img {
+  width: 1.68rem;
+  height: 1.68rem;
+  margin: 0.48rem auto 0px;
+}
+
+.enter-list .enter-wrapper ul li a .title {
+  font-size: 0.44rem;
+  width: 3rem;
+  height: 0.56rem;
+  margin-top: 0.1rem;
+  color: #666;
+  overflow: hidden;
+  line-height: 0.56rem;
+  text-align: center;
+}
+
+.big-blank {
+  width: 15rem;
+  height: 0.48rem;
+  background-color: #f7f7f7;
+}
+
+.v7-2big {
+  display: flex;
+  width: 14.04rem;
+  height: 5.16rem;
+  margin: 0 auto;
+  border-radius: 0.24rem 0.24rem 0 0;
+  background-color: #fff;
+}
+
+.v7-2big .area {
+  width: 7rem;
+  height: 5.16rem;
+}
+
+.v7-2big .area .click-area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.v7-2big .area .click-area .title-wrapper {
+  overflow: hidden;
+  width: 7rem;
+  height: 1.16rem;
+}
+
+.v7-2big .area .click-area .title-wrapper .title {
+  font-size: 0.56rem;
+  letter-spacing: 0;
+  line-height: 0.8rem;
+  overflow: hidden;
+  height: 0.8rem;
+  margin: 0.36rem 0 0 0.48rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.v7-2big .area .click-area .des {
+  width: 6rem;
+  height: 0.6rem;
+  font-size: 0.48rem;
+  color: #999;
+  overflow: hidden;
+  margin: 0.08rem 0 0 0.48rem;
+  line-height: 0.6rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 0.08rem;
+}
+
+.v7-2big .area .click-area .img-wrapper {
+  position: absolute;
+  top: 1.96rem;
+  left: 0.48rem;
+  width: 2.8rem;
+  height: 3.2rem;
+}
+
+.v7-2big .area .click-area .img-wrapper img {
+  display: block;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0 auto;
+  background: none;
+}
+
+.v7-2big .area .click-area .img-wrapper .img-desc {
+  position: absolute;
+  bottom: 0.16rem;
+  left: -0.1rem;
+  width: 3rem;
+  height: 1.08rem;
+  background: url(../images/1111.png) no-repeat;
+  background-size: 3rem 1.08rem;
+  padding-top: 0.44rem;
+  line-height: 0.64rem;
+  overflow: hidden;
+  font-size: 0.4rem;
+  text-align: center;
+  color: #333;
+}
+
+.v7-2big .area .click-area .right-wrapper {
+  left: 3.72rem;
+}
+
+.v7-2big .hr {
+  width: 1px;
+  height: 100%;
+  line-height: 0;
+  background-color: #f2f2f2;
+}
